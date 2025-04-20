@@ -1,0 +1,3 @@
+"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\xmlParser.dir/objects.a
+D:\PROGRA~2\mingw64\bin\ar.exe qc CMakeFiles\xmlParser.dir/objects.a @CMakeFiles\xmlParser.dir\objects1.rsp
+D:\PROGRA~2\mingw64\bin\G__~1.EXE -Wl,--whole-archive CMakeFiles\xmlParser.dir/objects.a -Wl,--no-whole-archive -o "D:\YM File\OpenCode\tinyxml2\main\bin\xmlParser.exe" -Wl,--out-implib,"D:\YM File\OpenCode\tinyxml2\main\bin\libxmlParser.dll.a" -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\xmlParser.dir\linkLibs.rsp

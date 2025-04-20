@@ -1,0 +1,3 @@
+D:/YM File/OpenCode/tinyxml2/build/CMakeFiles/testFunc_static.dir
+D:/YM File/OpenCode/tinyxml2/build/CMakeFiles/edit_cache.dir
+D:/YM File/OpenCode/tinyxml2/build/CMakeFiles/rebuild_cache.dir

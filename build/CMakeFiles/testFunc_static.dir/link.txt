@@ -1,0 +1,2 @@
+D:\PROGRA~2\mingw64\bin\ar.exe qc "D:\YM File\OpenCode\tinyxml2\lib\libtestFunc.a" CMakeFiles/testFunc_static.dir/tinyxml2.cpp.obj
+D:\PROGRA~2\mingw64\bin\ranlib.exe "D:\YM File\OpenCode\tinyxml2\lib\libtestFunc.a"
