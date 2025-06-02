@@ -11,7 +11,6 @@ set (EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 如果不加下面两行，那么编译cmake时就要加参数-G “MinGW Makefiles” 用来指定编译器
 # 通常需要加上，这样就可以直接在build目录下直接cmake .. 
-# 描述有误，待验证
 # 实际上应该是指定c语言文件和c++文件的默认编译器
 # 如果win下环境变量里面没有设置mingw的路径的话，这里应该是可以帮助查找g++的路径
 set(CMAKE_C_COMPILER "D:/Program Files/mingw64/bin/gcc.exe")
@@ -34,7 +33,7 @@ find_library(TESTFUNC_LIB testFunc HINTS ../lib)
 
 # 指定生成目标
 # xmlParser : 目标文件的名字
-add_executable(xmlParser ${DIR_SRCS})
+add_executable(xmlTest ${DIR_SRCS})
 
 # 添加链接库
 target_link_libraries(xmlParser ${TESTFUNC_LIB})
